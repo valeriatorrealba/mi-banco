@@ -70,31 +70,6 @@ En este desafío, debes construir una aplicación que:
 
     -Ejecuta node index.js para iniciar el script y realizar las operaciones desde la línea de comandos.
 
-## Uso de las Funciones:
-
-## Ejemplos de Uso
-
-**Registrar una transferencia:**:
-
-    ```bash
-    node index.js addTransferencia '{"descripcion": "Pago de factura", "fecha": "2024-07-30", "monto": 5000, "cuenta_origen": 1, "cuenta_destino": 2}'
-    
-**Consultar últimas transferencias de una cuenta**:
-
-    ```bash
-    node index.js getLastTransfers '{"cuenta_id": 1}'
-    
-**Consultar saldo de una cuenta**:
-
-    ```bash
-    node index.js getSaldo '{"cuenta_id": 1}'
-    
-**Eliminar transferencia**:
-
-    ```bash
-    node index.js deleteTransferencia '{"id": 1}'
-    
-
 ## Autor
 
 Este proyecto fue desarrollado por **Valeria Torrealba**.
